@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+main{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 30px;
+}
+
+footer{
+    margin: 20px;
+}
+
+
+.header-titulo{
+    font-family: "Bebas Neue", sans-serif;
+    color: #ffffff;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+}
+
+.header{
+    background-color: #59253D;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    padding: 2.5rem 2rem;
+}
+
+.header-nav-lista a:hover{
+    color: #E1A8A1;
+}
+
+.nav-lista a{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.nav-lista ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+h1, h2, h3{
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 1rem;
+}
+
+h1{
+    color: #59253D;
+}
+
+h2,
+h3{
+    color: #59253D;
+}
+
+p{
+    font-family: "Merriweather", serif;
+    max-width: 100%;
+}
+
+
+body{
+    background-color: #EEDADB;
+    color: #222222;
+    font-family: "Merriweather", serif;
+}
+
+.contenido-box{
+    background-color: #ffffff;
+
+    max-width: 1000px;
+
+    margin: 2rem auto;
+
+    padding: 2rem;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.contenido-box h2{
+    color: #59253D;
+
+    margin-bottom: 1.5rem;
+}
+
+.contenido-box p{
+    line-height: 1.8;
+
+    margin-bottom: 1rem;
+}
+
+.article-proyecto{
+    background-color: rgba(128, 128, 128, 0.767);
+
+    padding: 2rem;
+
+    margin-top: 2rem;
+
+    border-left: 8px solid #BD6365;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.08);
+}
+
+
+.form-titulo{
+    font-family: "Bebas Neue", sans-serif;
+    color: #59253D;
+}
+
+fieldset{
+    border: 2px solid #94495D;
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+input,
+textarea{
+    border: 1px solid #BD6365;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+input[type="submit"]{
+    background-color: #BD6365;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+}
+
+input[type="submit"]:hover{
+    background-color: #94495D;
+}
+
+.footer{
+    background-color: #59253D;
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.footer a{
+    color: #E1A8A1;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #ffffff;
+}
