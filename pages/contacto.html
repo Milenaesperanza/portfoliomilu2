@@ -8,6 +8,7 @@
 
     <title>Web del Proyecto Final de Srta. Milu</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
 
 </head>
@@ -16,16 +17,24 @@
 
     <header class="header">
 
-     <h1 class="header-titulo">Contacto</h1>
+        <nav class="navbar navbar-expand-lg nav-lista" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand header-titulo" href="../index.html">Contacto</a>
 
-        <nav class="nav-lista">
-            <ul>
-               <li><a href="../index.html">Inicio</a></li>
-               <li><a href="./sobremi.html">Sobre Mí</a></li>
-               <li><a href="./proyectos.html">Proyectos</a></li>
-               <li><a href="./procesodetrabajo.html">Proceso de Trabajo</a></li>
-               <li><a href="#">Contacto</a></li>
-            </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal" aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Abrir navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarPrincipal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./sobremi.html">Sobre Mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./proyectos.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./procesodetrabajo.html">Proceso de Trabajo</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
     </header>
@@ -33,8 +42,8 @@
     <main>
 
         <p>
-           Gracias por visitar mi sitio. Si querés contactarme para conversar sobre proyectos,
-           colaboraciones o intercambiar ideas, podés hacerlo a través del siguiente formulario.
+            Gracias por visitar mi sitio. Si querés contactarme para conversar sobre proyectos,
+            colaboraciones o intercambiar ideas, podés hacerlo a través del siguiente formulario.
         </p>
 
         <section class="contenido-box">
@@ -43,48 +52,47 @@
 
                 <fieldset>
 
-                 <legend class="form-titulo">Formulario de Contacto</legend>
+                    <legend class="form-titulo">Formulario de Contacto</legend>
 
-                 <label for="form_name">Nombre</label>
-                 <input type="text" id="form_name" placeholder="Milena Montes" required>
-          
-                 <label for="form_mail">Dirección de e-mail</label>
-                 <input type="email" name="" id="form_mail" placeholder="vos@email.com" required>
-          
-                 <label for="form_ubi">Ciudad y País</label>
-                 <input type="text" id="form_ubi" placeholder="Buenos Aires, Argentina">
-           
-                 <label for="form_mensage">Mensaje</label>
-                 <textarea name="" id="form_mensage" placeholder="Hola! Me interesó tu propuesta, tengo tal idea, quisiera saber cómo podemos hacerla realidad." required></textarea>
+                    <label for="form_name">Nombre</label>
+                    <input type="text" id="form_name" placeholder="Milena Montes" required>
+
+                    <label for="form_mail">Dirección de e-mail</label>
+                    <input type="email" name="" id="form_mail" placeholder="vos@email.com" required>
+
+                    <label for="form_ubi">Ciudad y País</label>
+                    <input type="text" id="form_ubi" placeholder="Buenos Aires, Argentina">
+
+                    <label for="form_mensage">Mensaje</label>
+                    <textarea name="" id="form_mensage" placeholder="Hola! Me interesó tu propuesta, tengo tal idea, quisiera saber cómo podemos hacerla realidad." required></textarea>
                 </fieldset>
 
-          
-                <input type="submit">
-         
+                <input type="submit" value="Enviar">
+
             </form>
 
         </section>
 
-        <section>
-
-          <h2>O escribime en Telegram...</h2>
-          <a href="https://t.me/senioritamilu">Telegram</a>
-
+        <section class="contenido-box">
+            <h2>O escribime en Telegram...</h2>
+            <a href="https://t.me/senioritamilu">Telegram</a>
         </section>
 
     </main>
-    
+
     <footer class="footer">
 
         <p class="footer-texto">
-            Redes sociales: 
+            Redes sociales:
             <a href="https://instagram.com/srtamilu">Instagram</a> |
             <a href="https://linkedin.com/in/milena-montes">Linkedin</a> |
             <a href="https://elmovimiento.vercel.app">Blog</a>
             - 2026 Copyright Srta. Milu
         </p>
-    
+
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
